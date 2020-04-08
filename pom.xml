@@ -15,6 +15,14 @@
     <name>jiang-common-domain</name>
 
     <dependencies>
+        <!-- comment依赖 Start-->
+        <dependency>
+            <groupId>cn.jiang</groupId>
+            <artifactId>jiang-common</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <!-- comment依赖 End-->
+
         <!-- Utils Begin -->
         <dependency>
             <groupId>javax.persistence</groupId>
@@ -30,7 +38,7 @@
         <repository>
             <id>nexus</id>
             <name>Nexus Repository</name>
-            <url>http://34.80.214.44:8081/repository/maven-public/</url>
+            <url>http://jiangshikai.com:8081/repository/maven-public/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
